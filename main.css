@@ -1,0 +1,298 @@
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.icon{
+    font-weight: 100;
+    color: black;
+    width: 35px;
+}
+.icon2{
+    font-weight: 100;
+    color: black;
+    font-size: 40px;
+    margin-left: 7px;
+}
+.bell{
+    margin-left: -2px;
+    width: 30px;
+}
+.message{
+    width: 35px;
+}
+.bookmark{
+    width: 33px;
+}
+.profile{
+    width: 33px;
+}
+.more{
+    width: 40px;
+}
+.option{
+    font-size: 15px;
+    color: black;
+}
+
+.sideoptn{
+    background-color: white;
+}
+.sideoptn:hover{
+    background-color: rgb(20, 18, 18);
+}
+
+.home{
+    color: black;
+}
+.margin{
+    margin-top: 40px;
+}
+.searchbar{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.searchbox{
+    width: 100%;
+    border: none;
+    text-align: center;
+    background-image: url(imgs/sea.png);
+    background-size:15px ;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+.search{
+    margin-bottom: 10px;
+
+}
+.mainbar{
+    /* height: 50px; */
+    background-color: white;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.mainbar{
+    width: 100%;
+    position: sticky;
+}
+@media(max-width:1100px){
+    .right{
+        display: none;
+    }
+    .searchbox{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+}
+.blackLogo{
+    margin-left:12%;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.totoal{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.whahapimg{
+    width: 50%;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    
+}
+.one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+}
+.tweettop{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(127, 184, 222);
+    color: white;
+}
+.btndiv{
+    padding-left: 19%;
+}
+.fow{
+    font: 20px;
+}
+.blackLogodiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.blacklogo{
+    width: 60px;
+}
+.rightsidenew{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+}
+.rightsidenew:hover{
+    background-color: rgb(196, 194, 194);
+}
+.Logo{
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    margin-left: -10px;
+    font-size: 35px;
+}
+.body{
+    display: flex;
+    flex-direction: row;
+}
+.right{
+    position: sticky;
+    top: 50px;
+}
+.left{
+    
+    position: sticky;
+    top: 50px;  
+}
+.dpname{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+ .mlogo{
+    width:30px ;
+}
+.postall{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dp{
+    margin-top: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+}
+.centerHead h1{
+    color: rgb(0, 0, 0);
+}
+/* .centerHead p{
+    width: auto;
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 20px;
+    color: rgb(104, 104, 104);
+} */
+.centerhead{
+    border-left: solid 1px rgb(155, 155, 155);
+    border-right: solid 1px rgb(155, 155, 155);
+}
+.body{
+    padding-left: 10px;
+    border-top: solid 1px black;
+}
+.posts{
+    position: absolute;
+    border-radius: 10px;
+}
+.posts img{
+    border-radius: 10px;
+}
+.rightsideimgs{
+    width: 100px;
+    height: auto;
+    border-radius: 20px;  
+
+}
+.rightsideimg2{
+    width: 100px;
+    height: auto;
+    border-radius: 20px;
+}
+.rightsidetag{
+padding-bottom: 30px;
+}
+.text{
+    font-weight: 900;
+    color: black;
+    text-decoration: none;
+}
+.text:hover{
+    text-decoration: none;
+    color: black;
+}
+.followsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start
+}
+.foll{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.follow{
+   width: 60px;
+   height: 30px;
+   border: none;
+   border-radius: 10px;
+   background-color: rgb(42, 42, 42);
+   color: white;
+}
+.tweet{
+    position: absolute;
+    left: 0;
+
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(29, 155, 240);
+    color: white;
+}
+.tweetbtn{
+    width: 90px;
+}
+.follname{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+.follName{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+   
+    margin-left: 10px;
+}
+.rigthsideset{
+    display: flex;
+    height: 80px
+}
+.dpandname{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

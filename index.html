@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+
+    <div class="body">
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-sm-12 col-sm-12 col-lg-6 mainleft p-0">
+                    <img src="imgs/mainimage.png" alt="" class=" mainimg">
+                    <img src="imgs/logo.png" alt="" class="img-fluid mainlogo">
+
+
+                </div>
+                <div class="col-sm-12 col-sm-12 col-lg-6 mainright order-sm-1 pl-2">
+                    <img src="imgs/logo.png" alt="" class="logoright">
+                    <h1>Happening now</h1>
+                    <p>Join Twitter today.</p>
+                    <div class="btns">
+                        <button class="btn1">signup with Google</button>
+                        <button class="btn2">signup with Apple</button>
+
+                    </div>
+                    <div>
+                        <button class="btn3" onclick="show()">Sign up with phone or email</button>
+                        <p style="font-size: 10px;">By signing up, you agree to the <span> <a href="">Terms of
+                                    Service</a></span> and<span> <a href="">Privacy<br> Policy</a></span>, including
+                            <span>
+                                <a href="">Cookie Use</a></span>.</p>
+
+                    </div>
+                    <div class="alreadyacc">
+                        <h4>Already have an account?</h4>
+                        <button class="btn4">Sign in</button>
+                    </div>
+
+
+                    <!-- ===========================login input==========================  -->
+                    <div class="container" id="form" style="display:none;">
+                        <div class="row ">
+
+                            <div class="col-6 form">
+                                <button class="closebtn" id="closebtn" onclick="hide()">X</button>
+                                <form action="main.html" id="forms">
+                                    <input type="text" name="Name" id="" placeholder="name">
+                                    <input type="tel" name="telephone" id="" placeholder="phone">
+                                    <input type="password" name="pass1" id="pass1" placeholder="Enter the password">
+                                    <input type="password" name="pass2" id="pass2" placeholder="Confirm the password">
+                                    <button class="loginbtn">Sign up</button>
+
+                                </form>
+                            </div>
+
+
+
+
+
+                        </div>
+
+
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-12 ">
+
+                <div class="foot">
+                    <a href="" class="footer">About </a>
+                    <a href="" class="footer">Help Center </a>
+                    <a href="" class="footer">Terms of Service</a>
+                    <a href="" class="footer">Privacy Policy</a>
+                    <a href="" class="footer">Cookie Policy</a>
+                    <a href="" class="footer">Ads info</a>
+                    <a href="" class="footer">Blog</a>
+                    <a href="" class="footer">Status</a>
+                    <a href="" class="footer">Careers</a>
+                    <a href="" class="footer">Brand Resources</a>
+                    <a href="" class="footer">Advertising</a>
+                    <a href="" class="footer">Marketing</a>
+                    <a href="" class="footer">Twitter for Business</a>
+                    <a href="" class="footer">Developers</a>
+                    <a href="" class="footer">Directory</a>
+                    <a href="" class="footer">Settings</a>
+                    <a href="" class="footer"> © 2021 Twitter, Inc.</a>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+    <script>
+
+        function show() {
+            document.getElementById("form").style.display = "block"
+        }
+        function hide() {
+            document.getElementById("form").style.display = "none"
+        }
+
+    </script>
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
